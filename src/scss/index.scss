@@ -159,12 +159,194 @@ html{
               font-size:3rem;
               }
             }
+
+            
           }
+         
           
         }
+     
       }
-    }
+
+         .popular-locations{
+           padding-top: 6rem;
+          width:100%;
+          height:100%;
+          background:var(--color-white);
+          margin:0 auto;
+          margin-bottom:7rem;
+          h3{
+            text-align:center;
+            font-size:3rem;
+            margin:0 auto;
+          }
+          hr{
+            width:20%;
+            border: 3px solid var(--color-yellow);
+            margin:0 auto;
+            margin-bottom:3rem;
+          }
+          p{
+            margin-top:5rem;
+            text-align:center;
+            width:60%;
+            font-size:1.5rem;
+            margin:0 auto;
+            margin-bottom:4rem;
+          }
+          .four-row{
+            
+            display:flex;
+            width:50%;
+            margin:0 auto;
+            .row-card{
+             
+              margin:0 auto;
+              figure{
+              
+              img{
+                border-radius:6px;
+                
+              }
+              .caret{
+                width:30px;
+                height:30px;
+                border-radius:50%;
+               position:relative;
+               top:-9rem;
+               right:1.4rem;
+               outline:none;
+              }
+              figcaption{
+                color:var(--color-white	);
+                margin-top:-6rem;
+              }
+            }
+             
+            }
+          }
+        }
+        .featured-listing{
+          padding-top: 6rem;
+          width:100%;
+          height:100%;
+          background:var(--color-white);
+          margin:0 auto;
+          margin-bottom:7rem;
+          h3{
+            text-align:center;
+            font-size:3rem;
+            margin:0 auto;
+          }
+          hr{
+            width:20%;
+            border: 3px solid var(--color-yellow);
+            margin:0 auto;
+            margin-bottom:3rem;
+          }
+          p{
+            margin-top:5rem;
+            text-align:center;
+            width:60%;
+            font-size:1.5rem;
+            margin:0 auto;
+            margin-bottom:4rem;
+          }
+          .three-row{
+            display:flex;
+            width:63%;
+            margin:0 auto;
+            .row-card{
+              margin:0 auto;
+              figure{
+            
+                img{
+                 
+                  
+                }
+                .caret{
+                  width:30px;
+                  height:30px;
+                  border-radius:50%;
+                 position:relative;
+                 top:-9rem;
+                 right:1.4rem;
+                 outline:none;
+                }
+                figcaption{
+                  color:var(--color-white	);
+                  margin-top:-20rem;
+                  margin-bottom: 25rem;
+                  
+                }
+              }
+              .below-details{
+                display:flex;
+               box-shadow: var(--elevation-2dp);
+                margin-top:-7rem;
+                height: 60px;
+                p{
+                  font-size:12px;
+                  margin-top: 4rem;
+                }
+              }
+            }
+          
+          }
+        }
+        .featured-people{
+          padding-top: 6rem;
+          width:100%;
+          height:100%;
+          background:var(--color-white);
+          margin:0 auto;
+          margin-bottom:27rem;
+          h3{
+            text-align:center;
+            font-size:3rem;
+            margin:0 auto;
+          }
+          hr{
+            width:20%;
+            border: 3px solid var(--color-yellow);
+            margin:0 auto;
+            margin-bottom:3rem;
+          }
+          .three-row{
+            display:flex;
+            width:65%;
+            margin:0 auto;
+            .people-card{
+              margin:0 auto;
+              .rounded{
+                margin:0 auto;
+              img{
+                border-radius:50%;
+              }
+            }
+              .info{
+                margin:0 auto;
+                 font-size: 1.3rem;
+                 width:70%;
+                 text-align:center;
+              }
+              .button{
+                width: 130px;
+                height: 30px;
+                border: 2px solid  var(--color-yellow);
+                p{
+                  color:var(--color-yellow);
+                  font-size:1.5rem;
+                 text-align:center;
+                 margin-top:7px;
+                }
+              }
+            }
+       
+      }
+        }
+      
   }
   
- 
+}
 }

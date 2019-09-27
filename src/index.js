@@ -54,12 +54,29 @@ function App() {
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
           <div className="four-row">
             <div className="row-card">
+              <figure>
+              <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="150" height="200"/>
+              <figcaption>Kubwa</figcaption>
+              </figure>
             </div>
             <div className="row-card">
+            <figure>
+              <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="150" height="200"/>
+              <figcaption>Gwarimpa</figcaption>
+              </figure>
             </div>
             <div className="row-card">
+            <figure>
+              <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="150" height="200"/>
+              <figcaption>Kubwa</figcaption>
+              </figure>
             </div>
             <div className="row-card">
+            <figure>
+              <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="150" height="200" />
+              <button className="caret">	&#x203a;</button>
+              <figcaption>Kubwa</figcaption>
+              </figure>
             </div>
           </div>
         </section>
@@ -69,23 +86,72 @@ function App() {
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
           <div className="three-row">
             <div className="row-card">
+              <div>
+            <figure>
+              <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="250" height="200" />
+            
+              <figcaption>#50,000</figcaption>
+              </figure>
+              </div>
+
+              <div className="below-details">
+              <p>2 bedroom</p>
+                <p>2 bathroom</p>
+              </div>
             </div>
             <div className="row-card">
+              <div>
+            <figure>
+              <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="250" height="200" />
+            
+              <figcaption>#10,000</figcaption>
+              </figure>
+              </div>
+
+              <div className="below-details">
+                <p>2 bedroom</p>
+                <p>2 bathroom</p>
+              </div>
             </div>
+
             <div className="row-card">
+              <div>
+            <figure>
+              <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="250" height="200" />
+            
+              <figcaption>#10,000</figcaption>
+              </figure>
+              </div>
+
+              <div className="below-details">
+                <p>2 bedroom</p>
+                <p>2 bathroom</p>
+              </div>
             </div>
+            
           </div>
         </section>
         <section className="featured-people">
           <h3> Featured People</h3>
           <hr />
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim</p>
+         
           <div className="three-row">
             <div className="people-card">
+              <div className="rounded"> <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="100" height="100" /></div>
+           
+            <div> <p className="info"><strong>James John</strong>is interested in sharing his space at Kuje, Abuja. He also will not mind sharing in Gwarimpa</p></div>
+            <div  className="button"><p>View Profile</p></div>
             </div>
             <div className="people-card">
+            <div  className="rounded"> <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="100" height="100" /></div>
+            <div> <p className="info"><strong>James John</strong>is interested in sharing his space at Kuje, Abuja. He also will not mind sharing in Gwarimpa</p></div>
+            <div  className="button"><p>View Profile</p></div>
             </div>
             <div className="people-card">
+            <div  className="rounded"> <img src="/images/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg" width="100" height="100" /></div>
+           <div><p className="info"><strong>James John</strong>is interested in sharing his space at Kuje, Abuja. He also will not mind sharing in Gwarimpa</p></div> 
+
+           <div className="button"><p>View Profile</p></div>
             </div>
             </div>
         </section>
